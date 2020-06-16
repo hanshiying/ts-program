@@ -1,0 +1,24 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			// "problemMatcher": [],
+			"label": "npm: start",
+			"detail": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+			"isBackground": true,
+            "problemMatcher": {
+                "owner": "custom",
+                "pattern": {
+                    "regexp": "_____"
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "^.*Executing task: npm run start.*$",
+                    "endsPattern": "DONE Compiled successfully in \\d+ms"
+                },
+            }
+		}
+	]
+}
