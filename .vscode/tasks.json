@@ -6,7 +6,7 @@
 			"script": "start",
 			// "problemMatcher": [],
 			"label": "npm: start",
-			"detail": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+			"detail": "npm run start",
 			"isBackground": true,
             "problemMatcher": {
                 "owner": "custom",

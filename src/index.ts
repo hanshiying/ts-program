@@ -1,5 +1,5 @@
 // import { sum } from "./common"
-
+import './style/common.css'
 const message = 'hello typescritp!!'
 document.querySelectorAll('#app')[0].innerHTML = message
 class animal {
